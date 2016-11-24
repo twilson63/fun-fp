@@ -9,5 +9,7 @@ module.exports = {
   keys: require('./object/keys'),
   prop: require('./object/prop'),
   path: require('./object/path'),
-  has: require('./object/has')
+  has: require('./object/has'),
+  concat: require('./list/concat'),
+  reverse: require('./list/reverse')
 }

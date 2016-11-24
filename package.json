@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/**/*.js"
+    "test": "tape src/**/**/test.js"
   },
   "keywords": [],
   "author": "Tom",

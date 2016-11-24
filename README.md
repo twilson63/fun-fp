@@ -6,8 +6,8 @@ A learning functional library for javascript
 
 List
 
-* reduce
-* map
+* [reduce](src/list/reduce/README.md)
+* [map](src/list/map/README.md)
 * filter
 * find
 

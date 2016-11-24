@@ -1,4 +1,5 @@
-const reverse = require('../list/reverse')
+const reverse = require('../../list/reverse')
+const reduce = require('../../list/reduce')
 
 module.exports = function (...fns) {
   return value => reduce((acc, fn) => {

@@ -11,5 +11,8 @@ module.exports = {
   path: require('./object/path'),
   has: require('./object/has'),
   concat: require('./list/concat'),
-  reverse: require('./list/reverse')
+  reverse: require('./list/reverse'),
+  addindex: require('./function/addindex'),
+  compose: require('./function/compose'),
+  curry: require('./function/curry')
 }

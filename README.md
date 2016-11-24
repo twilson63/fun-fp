@@ -6,7 +6,7 @@ A learning functional library for javascript
 
 Function
 
-* [addindex](src/function/addindex/README.md)
+* [addindex](src/function/addIndex/README.md)
 * [compose](src/function/compose/README.md)
 * [curry](src/function/curry/README.md)
 

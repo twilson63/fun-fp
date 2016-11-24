@@ -1,4 +1,4 @@
-# addIndex
+# addindex
 
 add index creates a new list iteration with an index
 argument as the second argument.
@@ -9,3 +9,5 @@ argument as the second argument.
 const filterIndex = addIndex(filter)
 const tail = filterIndex((v, i) => i !== 0)
 ```
+
+[README](../../../README.md)

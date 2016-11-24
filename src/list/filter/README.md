@@ -13,3 +13,5 @@ const filteredList = filter({predicate function}, [array])
 ```
 const even = filter(a => a % 2 === 0, [1,2,3,4])
 ```
+
+[README](../../../README.md)

@@ -1,7 +1,7 @@
-const addIndex = require('../../function/addIndex')
+const addindex = require('../../function/addindex')
 const filter = require('../filter')
 const curry = require('../../function/curry')
 
 module.exports = curry(
-  addIndex(filter)
+  addindex(filter)
 )((v, i) => i !== 0)

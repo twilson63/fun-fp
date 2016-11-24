@@ -16,3 +16,5 @@ const e = compose(a,b,c)
 console.log(e(4), ' equals 7')
 
 ```
+
+[README](../../../README.md)

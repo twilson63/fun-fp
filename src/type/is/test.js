@@ -1,5 +1,5 @@
 const test = require('tape')
-const { is } = require('../../')
+const is = require('./')
 
 test('is type', t => {
   t.ok(is(Object, {}))

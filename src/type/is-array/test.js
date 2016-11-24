@@ -1,5 +1,5 @@
 const test = require('tape')
-const { isArray } = require('../../')
+const isArray = require('./')
 
 test('is array', t => {
   t.ok(isArray([]))

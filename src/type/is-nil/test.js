@@ -1,5 +1,5 @@
 const test = require('tape')
-const { isNil } = require('../../')
+const isNil = require('./')
 
 test('is array', t => {
   t.ok(isNil(null))

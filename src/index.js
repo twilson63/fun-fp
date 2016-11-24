@@ -1,18 +1,27 @@
 module.exports = {
-  map: require('./list/map'),
-  filter: require('./list/filter'),
-  reduce: require('./list/reduce'),
-  find: require('./list/find'),
-  is: require('./type/is'),
-  isNil: require('./type/is-nil'),
-  isArray: require('./type/is-array'),
-  keys: require('./object/keys'),
-  prop: require('./object/prop'),
-  path: require('./object/path'),
-  has: require('./object/has'),
-  concat: require('./list/concat'),
-  reverse: require('./list/reverse'),
-  addindex: require('./function/addindex'),
+  addIndex: require('./function/addindex'),
   compose: require('./function/compose'),
-  curry: require('./function/curry')
+  curry: require('./function/curry'),
+
+  concat: require('./list/concat'),
+  filter: require('./list/filter'),
+  find: require('./list/find'),
+  head: require('./list/head'),
+  map: require('./list/map'),
+  reduce: require('./list/reduce'),
+  reject: require('./list/reject'),
+  reverse: require('./list/reverse'),
+  tail: require('./list/tail'),
+
+  add: require('./math/add'),
+  sum: require('./math/sum'),
+
+  has: require('./object/has'),
+  keys: require('./object/keys'),
+  path: require('./object/path'),
+  prop: require('./object/prop'),
+
+  is: require('./type/is'),
+  isArray: require('./type/is-array'),
+  isNil: require('./type/is-nil')
 }

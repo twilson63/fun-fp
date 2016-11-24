@@ -2,7 +2,9 @@ module.exports = {
   addIndex: require('./function/addindex'),
   compose: require('./function/compose'),
   curry: require('./function/curry'),
+  identity: require('./function/identity'),
 
+  byIndex: require('./list/by-index'),
   concat: require('./list/concat'),
   filter: require('./list/filter'),
   find: require('./list/find'),
@@ -20,6 +22,8 @@ module.exports = {
   keys: require('./object/keys'),
   path: require('./object/path'),
   prop: require('./object/prop'),
+
+  equals: require('./relation/equals'),
 
   is: require('./type/is'),
   isArray: require('./type/is-array'),

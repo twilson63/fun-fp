@@ -15,7 +15,12 @@ module.exports = {
   reverse: require('./list/reverse'),
   tail: require('./list/tail'),
 
+  and: require('./logic/and'),
+  or: require('./logic/or'),
+  not: require('./logic/not'),
+
   add: require('./math/add'),
+  subtract: require('./math/subtract'),
   sum: require('./math/sum'),
 
   has: require('./object/has'),

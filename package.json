@@ -2,14 +2,16 @@
   "name": "fun-fp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "tape src/**/**/test.js"
+    "test": "tape src/**/**/test.js",
+    "build": "babel src --out-dir lib --ignore test.js"
   },
   "keywords": [],
   "author": "Tom",
   "license": "ISC",
   "devDependencies": {
-    "tape": "^4.6.2"
+    "tape": "^4.6.2",
+    "babel-preset-es2015": "^6.18.0"
   }
 }

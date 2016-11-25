@@ -12,7 +12,9 @@ Function
 
 List
 
+* [byIndex](src/list/by-index/README.md)
 * [concat](src/list/concat/README.md)
+* [flatten](src/list/flatten/README.md)
 * [filter](src/list/filter/README.md)
 * [find](src/list/find/README.md)
 * [head](src/list/head/README.md)

@@ -10,7 +10,9 @@ module.exports = (fn) => {
       store = concat(store, args)
       return ifn
     }
-    return fn.apply(null, concat(store, args))
+    const result = fn.apply(null, concat(store, args))
+    store = []
+    return result
   }
 
   return ifn

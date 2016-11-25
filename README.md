@@ -23,6 +23,8 @@ List
 * [reject](src/list/reject/README.md)
 * [reverse](src/list/reverse/README.md)
 * [tail](src/list/tail/README.md)
+* [tap](src/list/tap/README.md)
+* [update](src/list/update/README.md)
 
 Logic
 

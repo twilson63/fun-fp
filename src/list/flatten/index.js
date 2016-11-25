@@ -1,3 +1,3 @@
 const reduce = require('../reduce')
-module.exports = (...args) =>
-  reduce((acc, value) => [...acc, ...value], [], args)
+module.exports = (list) =>
+  reduce((acc, value) => [...acc, ...value], [], list)

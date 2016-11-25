@@ -8,6 +8,7 @@ module.exports = {
   concat: require('./list/concat'),
   filter: require('./list/filter'),
   find: require('./list/find'),
+  flatten: require('./list/flatten'),
   head: require('./list/head'),
   map: require('./list/map'),
   reduce: require('./list/reduce'),

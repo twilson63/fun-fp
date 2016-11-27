@@ -6,6 +6,7 @@ const obj = {
 }
 
 test('prop', t => {
+  t.equals(prop('foo')(obj), 'bar')
   t.equals(prop('foo', obj), 'bar')
   t.end()
 })

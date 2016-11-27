@@ -27,10 +27,17 @@ module.exports = {
   subtract: require('./math/subtract'),
   sum: require('./math/sum'),
 
+  assoc: require('./object/assoc'),
   has: require('./object/has'),
   keys: require('./object/keys'),
+  lens: require('./object/lens'),
+  lensProp: require('./object/lens-prop'),
+  over: require('./object/over'),
   path: require('./object/path'),
+  pathOr: require('./object/path-or'),
   prop: require('./object/prop'),
+  set: require('./object/set'),
+  view: require('./object/view'),
 
   equals: require('./relation/equals'),
   gt: require('./relation/gt'),

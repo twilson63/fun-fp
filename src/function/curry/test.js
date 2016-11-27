@@ -6,11 +6,12 @@ test('curry', t => {
     return [a,b,c]
   })
 
-  const g = f(1,2)
+  const g = f(1)(2)
 
   t.deepEquals([1,2,3], g(3))
-
-  const c = f(1)
-  console.log(c(2,3))
+  //
+  // const c = f(1)
+  // console.log(f(1)(2)(3))
+  // console.log(f(1,2,3))
   t.end()
 })

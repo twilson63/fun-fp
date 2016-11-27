@@ -1,2 +1,2 @@
-module.exports = (name, obj) =>
-  obj.hasOwnProperty(name) ? obj[name] : null
+const curry = require('../../function/curry')
+module.exports = curry((name, obj) => obj[name])

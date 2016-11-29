@@ -85,6 +85,10 @@ Type
 * [isNil](src/type/isNil/README.md)
 * [isArray](src/type/isArray/README.md)
 
+## Contributors
+
+[Contributors](https://github.com/twilson63/fun-fp/graphs/contributors)
+
 
 ## Contributing
 
@@ -95,3 +99,8 @@ When adding a new function be sure to include it in the src/index.js file as a r
 ## License 
 
 MIT
+
+## Thank you
+
+* [RamdaJS](http://ramdajs.com)
+* [UnderScoreJS](http://underscorejs.org)

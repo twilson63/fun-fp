@@ -84,3 +84,14 @@ Type
 * [is](src/type/is/README.md)
 * [isNil](src/type/isNil/README.md)
 * [isArray](src/type/isArray/README.md)
+
+
+## Contributing
+
+All contributions are welcome, each function is separated in a topic folder and then a specific folder for that function with a index.js, README.md, and test.js file.
+
+When adding a new function be sure to include it in the src/index.js file as a require.
+
+## License 
+
+MIT

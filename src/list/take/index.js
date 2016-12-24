@@ -1,8 +1,2 @@
 
-module.exports = (count,list) => {
-  var newList = []
-  for(var i = 0; i < count; i++){
-    newList.push(list[i])
-  }
-  return newList
-}
+module.exports = (count,list) => list.slice(0,count)

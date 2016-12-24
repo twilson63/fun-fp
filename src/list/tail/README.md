@@ -1,5 +1,6 @@
 # tail
 `tail :: [a] -> [a]`
+
 a list function that returns everything but the first item of the list.
 
 ## Example

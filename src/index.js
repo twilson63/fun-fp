@@ -3,6 +3,7 @@ module.exports = {
   compose: require('./function/compose'),
   curry: require('./function/curry'),
   identity: require('./function/identity'),
+  always: require('./function/always'),
 
   byIndex: require('./list/by-index'),
   concat: require('./list/concat'),

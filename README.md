@@ -28,8 +28,11 @@ npm run build
 Function
 
 * [addindex](src/function/addIndex/README.md)
+* [always](src/function/always/README.md)
+* [coalesce](src/function/coalesce/README.md)
 * [compose](src/function/compose/README.md)
 * [curry](src/function/curry/README.md)
+* [identity](src/function/identity/README.md)
 
 List
 
@@ -96,7 +99,7 @@ All contributions are welcome, each function is separated in a topic folder and 
 
 When adding a new function be sure to include it in the src/index.js file as a require.
 
-## License 
+## License
 
 MIT
 

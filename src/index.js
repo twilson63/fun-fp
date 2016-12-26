@@ -12,6 +12,7 @@ module.exports = {
   flatten: require('./list/flatten'),
   head: require('./list/head'),
   map: require('./list/map'),
+  pluck: require('./list/pluck'),
   reduce: require('./list/reduce'),
   reject: require('./list/reject'),
   reverse: require('./list/reverse'),

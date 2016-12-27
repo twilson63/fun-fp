@@ -53,6 +53,7 @@ List
 Logic
 
 * [and](src/logic/and/README.md)
+* [ifElse](src/logic/ifElse/README.md)
 * [not](src/logic/not/README.md)
 * [or](src/logic/or/README.md)
 

@@ -24,6 +24,7 @@ module.exports = {
   and: require('./logic/and'),
   or: require('./logic/or'),
   not: require('./logic/not'),
+  ifElse: require('./logic/ifElse'),
 
   add: require('./math/add'),
   subtract: require('./math/subtract'),

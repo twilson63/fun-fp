@@ -6,10 +6,8 @@ const identity = require('../../function/identity')
 const tap = require('../../list/tap')
 const ifElse = require('../../logic/ifElse')
 
-module.exports = (defaultValue, pathList, obj) => {
-  const getVal = x => ifElse(isNil,always(defaultValue),identity)(x)
-  return compose(
-    getVal,
-    path(pathList)
+module.exports = (defaultValue, pathList, obj) =>
+  compose(
+      ifElse(isNil,always(defaultValue),identity),
+      path(pathList)
   )(obj)
-}

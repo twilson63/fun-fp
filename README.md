@@ -33,6 +33,7 @@ Function
 * [compose](src/function/compose/README.md)
 * [curry](src/function/curry/README.md)
 * [identity](src/function/identity/README.md)
+* [invoker](src/function/invoker/README.md)
 
 List
 
@@ -42,6 +43,7 @@ List
 * [filter](src/list/filter/README.md)
 * [find](src/list/find/README.md)
 * [head](src/list/head/README.md)
+* [init](src/list/init/README.md)
 * [map](src/list/map/README.md)
 * [reduce](src/list/reduce/README.md)
 * [reject](src/list/reject/README.md)

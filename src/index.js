@@ -4,6 +4,7 @@ module.exports = {
   curry: require('./function/curry'),
   identity: require('./function/identity'),
   always: require('./function/always'),
+  invoker: require('./function/invoker'),
 
   byIndex: require('./list/by-index'),
   concat: require('./list/concat'),
@@ -11,6 +12,7 @@ module.exports = {
   find: require('./list/find'),
   flatten: require('./list/flatten'),
   head: require('./list/head'),
+  init: require('./list/init'),
   map: require('./list/map'),
   pluck: require('./list/pluck'),
   reduce: require('./list/reduce'),

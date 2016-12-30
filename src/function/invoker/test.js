@@ -2,7 +2,7 @@ const test = require('tape')
 const invoker = require('./')
 
 test('invoker', t => {
-  const answer = invoker(1,'split')(',','1,2')
-  t.deepEquals(['1','2'], answer)
+  const answer = invoker('slice')(0,1,'Hello Mate')
+  t.deepEquals('H', answer)
   t.end()
 })

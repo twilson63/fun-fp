@@ -1,12 +1,13 @@
 const init = require('../../list/init')
+const reverse = require('../../list/reverse')
 const path = require('../../object/path')
 const byIndex = require('../../list/by-index')
 
 
 
-module.exports = (arity, method) => {
+module.exports = (method) => {
   return (...args) => {
-    let data = byIndex(arity,args)
-    return data[method].apply(data, init(args))
+    var [data,...rest] = reverse(args)
+    return data[method].apply(data, reverse(rest))
   }
 }

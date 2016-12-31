@@ -85,6 +85,10 @@ Relation
 * [gt](src/relation/gt/README.md)
 * [lt](src/relation/lt/README.md)
 
+String
+
+* [split](src/string/split/README.md)
+
 Type
 
 * [is](src/type/is/README.md)

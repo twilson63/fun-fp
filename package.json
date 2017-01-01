@@ -1,7 +1,7 @@
 {
   "name": "fun-fp",
   "version": "1.7.0",
-  "description": "",
+  "description": "a fun and lightweight functional library",
   "main": "lib/index.js",
   "scripts": {
     "test": "tape src/**/**/test.js",

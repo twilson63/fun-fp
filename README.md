@@ -68,13 +68,16 @@ Math
 Object
 
 * [assoc](src/object/assoc/README.md)
+* [assocPath](src/object/assoc-path/README.md)
 * [has](src/object/has/README.md)
 * [keys](src/object/keys/README.md)
+* [lensPath](src/object/lens-path/README.md)
 * [lensProp](src/object/lens-prop/README.md)
 * [over](src/object/over/README.md)
 * [path](src/object/path/README.md)
 * [pathOr](src/object/path-or/README.md)
 * [prop](src/object/prop/README.md)
+* [propOr](src/object/prop-or/README/md)
 * [set](src/object/set/README.md)
 * [view](src/object/view/README.md)
 

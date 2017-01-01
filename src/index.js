@@ -33,14 +33,17 @@ module.exports = {
   sum: require('./math/sum'),
 
   assoc: require('./object/assoc'),
+  assocPath: require('./object/assoc-path'),
   has: require('./object/has'),
   keys: require('./object/keys'),
   lens: require('./object/lens'),
+  lensPath: require('./object/lens-path'),
   lensProp: require('./object/lens-prop'),
   over: require('./object/over'),
   path: require('./object/path'),
   pathOr: require('./object/path-or'),
   prop: require('./object/prop'),
+  propOr: require('./object/prop-or'),
   set: require('./object/set'),
   view: require('./object/view'),
 

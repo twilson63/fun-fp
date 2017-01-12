@@ -9,6 +9,7 @@ module.exports = {
   append: require('./list/append'),
   byIndex: require('./list/by-index'),
   concat: require('./list/concat'),
+  contains: require('./list/contains'),
   filter: require('./list/filter'),
   find: require('./list/find'),
   flatten: require('./list/flatten'),

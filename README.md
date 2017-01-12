@@ -40,6 +40,7 @@ List
 * [append](src/list/append/README.md)
 * [byIndex](src/list/by-index/README.md)
 * [concat](src/list/concat/README.md)
+* [contains](src/list/contains/README.md)
 * [flatten](src/list/flatten/README.md)
 * [filter](src/list/filter/README.md)
 * [find](src/list/find/README.md)

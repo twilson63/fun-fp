@@ -6,6 +6,7 @@ module.exports = {
   always: require('./function/always'),
   invoker: require('./function/invoker'),
 
+  append: require('./list/append'),
   byIndex: require('./list/by-index'),
   concat: require('./list/concat'),
   filter: require('./list/filter'),

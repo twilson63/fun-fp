@@ -37,6 +37,7 @@ Function
 
 List
 
+* [append](src/list/append/README.md)
 * [byIndex](src/list/by-index/README.md)
 * [concat](src/list/concat/README.md)
 * [flatten](src/list/flatten/README.md)

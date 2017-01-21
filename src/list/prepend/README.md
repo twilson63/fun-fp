@@ -1,3 +1,3 @@
 # Prepend
 
-Adds value to a the beginning of a list and returns a new list.
+Adds a value to the beginning of a list and returns a new list.

@@ -47,6 +47,7 @@ List
 * [head](src/list/head/README.md)
 * [init](src/list/init/README.md)
 * [map](src/list/map/README.md)
+* [prepend](src/list/prepend/README.md)
 * [reduce](src/list/reduce/README.md)
 * [remove](src/list/remove/README.md)
 * [reject](src/list/reject/README.md)

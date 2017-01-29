@@ -21,6 +21,8 @@ Uses es2015 let and const declarations, double arrow functions and rest operator
 ```
 const filterWithIndex = addIndex(filter)
 const tail = filterWithIndex((v, i) => i !== 0)
+tail([1,2,3,4])
+#> [2,3,4]
 ```
 
 [README](../../../README.md)

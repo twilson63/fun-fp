@@ -1,8 +1,10 @@
 const test = require('tape')
 const always = require('./')
 
-test('ifElse', t => {
+test('always', t => {
   const answer = always('yes')('blah')
-  t.deepEquals('yes', answer)
+  t.equals('yes', answer)
+  t.equals(always(0)(null), 0)
+  t.equals(always([])(2).length, 0)
   t.end()
 })

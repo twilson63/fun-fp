@@ -12,4 +12,4 @@ split('','HELLO') //=> ['H','E','L','L','O']
 
 ```
 
-[README](../../../README.md)
+[README](../../../README.md#function)

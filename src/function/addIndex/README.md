@@ -25,4 +25,4 @@ tail([1,2,3,4])
 #> [2,3,4]
 ```
 
-[README](../../../README.md)
+[README](../../../README.md#function)

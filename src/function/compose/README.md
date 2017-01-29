@@ -17,4 +17,4 @@ console.log(e(4), ' equals 7')
 
 ```
 
-[README](../../../README.md)
+[README](../../../README.md#function)

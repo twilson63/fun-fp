@@ -25,9 +25,14 @@ npm run build
 
 ## Modules
 
-- [Function](#Function)
-- [List](#List)
-- [Logic](#Logic)
+- [Function](#function)
+- [List](#list)
+- [Logic](#logic)
+- [Math](#math)
+- [Object](#object)
+- [Relation](#relation)
+- [String](#string)
+- [Type](#type)
 
 #### Function
 

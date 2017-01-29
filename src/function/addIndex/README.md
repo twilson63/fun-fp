@@ -25,4 +25,7 @@ tail([1,2,3,4])
 #> [2,3,4]
 ```
 
-[README](../../../README.md#function)
+- [source](./index.js)
+- [test](./test.js)
+
+[return](../../../README.md#function)

@@ -22,4 +22,4 @@ fn('bar')
 
 ```
 
-[README](../../../README.md)
+[README](../../../README.md#function)

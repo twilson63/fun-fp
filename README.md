@@ -25,7 +25,11 @@ npm run build
 
 ## Modules
 
-Function
+- [Function](#Function)
+- [List](#List)
+- [Logic](#Logic)
+
+#### Function
 
 * [addindex](src/function/addIndex/README.md)
 * [always](src/function/always/README.md)
@@ -35,7 +39,7 @@ Function
 * [identity](src/function/identity/README.md)
 * [invoker](src/function/invoker/README.md)
 
-List
+#### List
 
 * [append](src/list/append/README.md)
 * [byIndex](src/list/by-index/README.md)
@@ -56,20 +60,20 @@ List
 * [tap](src/list/tap/README.md)
 * [update](src/list/update/README.md)
 
-Logic
+#### Logic
 
 * [and](src/logic/and/README.md)
 * [ifElse](src/logic/ifElse/README.md)
 * [not](src/logic/not/README.md)
 * [or](src/logic/or/README.md)
 
-Math
+#### Math
 
 * [add](src/math/add/README.md)
 * [subtract](src/math/subtract/README.md)
 * [sum](src/math/sum/README.md)
 
-Object
+#### Object
 
 * [assoc](src/object/assoc/README.md)
 * [assocPath](src/object/assoc-path/README.md)
@@ -86,17 +90,17 @@ Object
 * [view](src/object/view/README.md)
 
 
-Relation
+#### Relation
 
 * [equals](src/relation/equals/README.md)
 * [gt](src/relation/gt/README.md)
 * [lt](src/relation/lt/README.md)
 
-String
+#### String
 
 * [split](src/string/split/README.md)
 
-Type
+#### Type
 
 * [is](src/type/is/README.md)
 * [isNil](src/type/isNil/README.md)

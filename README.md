@@ -121,3 +121,7 @@ MIT
 
 * [RamdaJS](http://ramdajs.com)
 * [UnderScoreJS](http://underscorejs.org)
+
+## Code of Conduct
+
+[CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)

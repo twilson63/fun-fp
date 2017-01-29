@@ -6,7 +6,7 @@ takes two arguments, an arity or number of args for a given named function and t
 
 ```
 
-var split = invoker(1,split)
+var split = invoker('split')
 
 split('','HELLO') //=> ['H','E','L','L','O']
 

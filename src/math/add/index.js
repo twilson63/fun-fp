@@ -1,1 +1,3 @@
-module.exports = (a,b) => a + b
+const curry = require('../../function/curry')
+
+module.exports = curry((a,b) => a + b)

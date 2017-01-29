@@ -1,12 +1,11 @@
-module.exports = function (iterator) {
-  return function (fn, list) {
-    let idx = 0
-    const origFn = fn
-    fn = function () {
-      const result = origFn.apply(null, [arguments[0], idx])
-      idx += 1
-      return result
-    }
-    return iterator.apply(null, [fn, list])
+const add = require('../../math/add')
+const inc = add(1)
+
+module.exports = iterator => (origFn, list) => {
+  let idx = -1
+  const fn = v => {
+    idx = inc(idx)
+    return origFn.apply(null, [v, idx])
   }
+  return iterator.apply(null, [fn, list])
 }

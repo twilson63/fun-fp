@@ -8,4 +8,7 @@ with the remaining arguments.
 ## example
 
 
-[README](../../../README.md#function)
+- [source](./index.js)
+- [test](./test.js)
+
+[return](../../../README.md#function)

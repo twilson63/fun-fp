@@ -12,4 +12,7 @@ split('','HELLO') //=> ['H','E','L','L','O']
 
 ```
 
-[README](../../../README.md#function)
+- [source](./index.js)
+- [test](./test.js)
+
+[return](../../../README.md#function)

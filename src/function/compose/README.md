@@ -17,4 +17,7 @@ console.log(e(4), ' equals 7')
 
 ```
 
-[README](../../../README.md#function)
+- [source](./index.js)
+- [test](./test.js)
+
+[return](../../../README.md#function)

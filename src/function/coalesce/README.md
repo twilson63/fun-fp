@@ -25,4 +25,7 @@ coalesce(a, f, g) // returns ''
 coalesce(a, g) // returns false
 ```
 
-[README](../../../README.md#function)
+- [source](./index.js)
+- [test](./test.js)
+
+[return](../../../README.md#function)

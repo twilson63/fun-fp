@@ -33,6 +33,7 @@ module.exports = {
   ifElse: require('./logic/ifElse'),
 
   add: require('./math/add'),
+  multiply: require('./math/multiply'),
   subtract: require('./math/subtract'),
   sum: require('./math/sum'),
 

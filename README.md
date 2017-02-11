@@ -75,7 +75,10 @@ npm run build
 #### Math
 
 * [add](src/math/add/README.md)
+* [divide](src/math/divide/README.md)
+* [mean](src/math/mean/README.md)
 * [multiply](src/math/multiply/README.md)
+* [product](src/math/product/README.md)
 * [subtract](src/math/subtract/README.md)
 * [sum](src/math/sum/README.md)
 

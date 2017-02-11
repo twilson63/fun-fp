@@ -18,5 +18,16 @@
     "standard": "^8.6.0",
     "tape": "^4.6.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/fun-fp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/fun-fp/issues"
+  },
+  "homepage": "https://github.com/twilson63/fun-fp#readme"
 }

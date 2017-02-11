@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/twilson63/fun-fp.svg?branch=master)](https://travis-ci.org/twilson63/fun-fp)
 
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 A learning functional library for javascript
 
 ## Usage

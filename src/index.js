@@ -1,5 +1,5 @@
 module.exports = {
-  addindex: require(__dirname + '/function/addindex'),
+  addindex: require('./function/addIndex'),
   compose: require('./function/compose'),
   curry: require('./function/curry'),
   identity: require('./function/identity'),

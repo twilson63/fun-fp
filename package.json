@@ -1,6 +1,6 @@
 {
   "name": "fun-fp",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "description": "a fun and lightweight functional library",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,5 @@
     "tape": "^4.6.2",
     "faucet": "^0.0.1"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }

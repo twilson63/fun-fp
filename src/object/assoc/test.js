@@ -2,7 +2,7 @@ const test = require('tape')
 const assoc = require('./')
 
 test('assoc', t => {
-  const obj = assoc('c', 2, { a: 1, b: 3})
+  const obj = assoc('c', 2, {a: 1, b: 3})
   t.deepEquals(obj, {a: 1, b: 3, c: 2})
 
   const t2 = assoc('b')

@@ -4,7 +4,7 @@ module.exports = (_ => {
   const Const = function (x) {
     return {
       value: x,
-      map: function() {
+      map: function () {
         return this
       }
     }

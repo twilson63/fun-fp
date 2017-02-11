@@ -5,7 +5,7 @@ module.exports = iterator => (origFn, list) => {
   let idx = -1
   const fn = v => {
     idx = inc(idx)
-    return origFn.apply(null, [v, idx])
+    return origFn(v, idx)
   }
-  return iterator.apply(null, [fn, list])
+  return iterator(fn, list)
 }

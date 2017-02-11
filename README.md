@@ -1,5 +1,7 @@
 # fun functional programming
 
+[![Build Status](https://travis-ci.org/twilson63/fun-fp.svg?branch=master)](https://travis-ci.org/twilson63/fun-fp)
+
 A learning functional library for javascript
 
 ## Usage

@@ -1,12 +1,11 @@
 const test = require('tape')
 const reject = require('./')
+const equals = require('../../relation/equals')
 
 test('reject', t => {
-  const answer = reject(function (value) {
-    return value === 1 ? true : false
-  }, [1,2,3,4])
+  const answer = reject(equals(1), [1, 2, 3, 4])
 
-  t.deepEquals([2,3,4], answer)
-  t.deepEquals([1,3], reject(a => a % 2 === 0, [1,2,3,4]))
+  t.deepEquals(answer, [2, 3, 4])
+  t.deepEquals(reject(a => a % 2 === 0, [1, 2, 3, 4]), [1, 3])
   t.end()
 })

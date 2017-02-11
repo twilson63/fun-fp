@@ -1,1 +1,1 @@
-module.exports = (name, obj) => obj.hasOwnProperty(name) ? true : false
+module.exports = (name, obj) => Boolean(obj.hasOwnProperty(name))

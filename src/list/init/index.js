@@ -1,8 +1,11 @@
-const tail = require('../tail')
-const reverse = require('../reverse')
-const compose = require('../../function/compose')
+const reject = require('../reject')
+const addIndex = require('../../function/addIndex')
+const equals = require('../../relation/equals')
 
-module.exports = list => {
-  var [,...rest] = reverse(list)
-  return reverse(rest)
-}
+const rejectWithIndex = addIndex(reject)
+
+module.exports = list => rejectWithIndex(
+  (v, i) =>
+    equals(list.length - 1, i)
+  , list
+)

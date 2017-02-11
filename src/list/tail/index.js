@@ -1,5 +1,5 @@
-const addindex = require('../../function/addindex')
+const addIndex = require('../../function/addindex')
 const filter = require('../filter')
-const curry = require('../../function/curry')
+const filterWithIndex = addIndex(filter)
 
-module.exports = list => addindex(filter)((v, i) => i !== 0, list)
+module.exports = list => filterWithIndex((v, i) => i !== 0, list)

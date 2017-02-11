@@ -1,3 +1,3 @@
 const curry = require('../../function/curry')
 
-module.exports = curry((value, list) => [value,...list])
+module.exports = curry((value, list) => [value, ...list])

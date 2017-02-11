@@ -1,5 +1,6 @@
+const path = require('path')
 module.exports = {
-  addIndex: require('./function/addindex'),
+  addIndex: require(path.resolve('./function/addindex')),
   compose: require('./function/compose'),
   curry: require('./function/curry'),
   identity: require('./function/identity'),

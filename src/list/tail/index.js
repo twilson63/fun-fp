@@ -1,4 +1,4 @@
-const addIndex = require('../../function/addIndex')
+const addIndex = require('../../function/add-index')
 const filter = require('../filter')
 const filterWithIndex = addIndex(filter)
 

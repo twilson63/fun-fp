@@ -1,5 +1,5 @@
 const reject = require('../reject')
-const addIndex = require('../../function/addIndex')
+const addIndex = require('../../function/add-index')
 const equals = require('../../relation/equals')
 
 const rejectWithIndex = addIndex(reject)

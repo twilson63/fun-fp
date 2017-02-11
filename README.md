@@ -107,6 +107,7 @@ npm run build
 
 * [equals](src/relation/equals/README.md)
 * [gt](src/relation/gt/README.md)
+* [gte](src/relation/gte/README.md)
 * [lt](src/relation/lt/README.md)
 
 #### String

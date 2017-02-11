@@ -33,7 +33,10 @@ module.exports = {
   ifElse: require('./logic/ifElse'),
 
   add: require('./math/add'),
+  divide: require('./math/divide'),
+  mean: require('./math/mean'),
   multiply: require('./math/multiply'),
+  product: require('./math/product'),
   subtract: require('./math/subtract'),
   sum: require('./math/sum'),
 
@@ -54,6 +57,7 @@ module.exports = {
 
   equals: require('./relation/equals'),
   gt: require('./relation/gt'),
+  gte: require('./relation/gte'),
   lt: require('./relation/lt'),
 
   split: require('./string/split'),

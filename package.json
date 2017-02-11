@@ -1,6 +1,6 @@
 {
   "name": "fun-fp",
-  "version": "1.13.1",
+  "version": "1.14.0",
   "description": "a fun and lightweight functional library",
   "main": "lib/index.js",
   "scripts": {

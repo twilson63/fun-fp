@@ -4,7 +4,7 @@
   "description": "a fun and lightweight functional library",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && faucet src/**/**/test.js",
+    "test": "faucet src/**/**/test.js",
     "build": "babel src --out-dir lib --ignore test.js",
     "lint": "standard 'src/**/*.js'"
   },

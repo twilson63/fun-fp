@@ -1,6 +1,6 @@
 # gte
 
-"Greater than or equal to" ( >= ): takes two arguments and returns `true` if the first argument is greater than or equal to the second argument; otherwise returns `false`.
+"Greater than or equal to" ( >= ) takes two arguments and returns `true` if the first argument is greater than or equal to the second argument; otherwise returns `false`.
 
 # API
 `(a, b) => a >= b`

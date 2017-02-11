@@ -11,8 +11,8 @@ Having a function that will multiply as many numbers as you want from a number o
 # Example
 
 ```
-const answer = product([5, 10, 20])
-answer === 1000
+const answer = product([5, 10, 20, 6])
+answer === 6000
 ```
 - [source](./index.js)
 - [test](./test.js)

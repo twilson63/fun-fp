@@ -11,7 +11,9 @@ There is no built in JavaScript operator that will return the average, or mean, 
 ```
 const numList = [22, 13, 1, 34, 8]
 
-mean(numList) === 15.6
+mean(numList) //=> 15.6
+
+mean([]) //=> NaN
 
 ```
 - [source](./index.js)

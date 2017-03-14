@@ -1,4 +1,4 @@
-// var curry = require('../../function/curry');
-var sum = require('../sum')
+const curry = require('../../function/curry');
+const sum = require('../sum')
 
-module.exports = (list) => sum(list) / list.length
+module.exports = curry((list) => sum(list) / list.length)

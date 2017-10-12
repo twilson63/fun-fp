@@ -1,3 +1,5 @@
+// documentation: see (readme)
+// test: set (test)
 const add = require('../../math/add')
 const inc = add(1)
 
